@@ -7,7 +7,7 @@
 */
 
 .full-height{
-	height: 626px;
+	height: 120%;
 }
 body{
     background-image: url("../iconos/imagen.jpg");
@@ -74,6 +74,12 @@ body{
 
 /*PARTE 2 PROYECTOS*/
 
+.margenSecciones{
+	margin-top: 7%;
+}
+.padding-contenido{
+	margin-top: 3%;
+}
 .proyectos{
 	background-color: rgba(255, 255, 255, 0.5);
 	border:dashed 0px #000000;
@@ -98,7 +104,7 @@ body{
 }
 
 .container-proyectos{
-	height: 35vh;
+	height: 80%;
 	border: 1px solid #000;
 }
 .margin-left{
@@ -108,7 +114,7 @@ body{
 	margin-right: 10px;
 }
 .margin-top{
-	margin-top: 15vh;
+	margin-top: 20%;
 }
 .font-title{
 	font-family: 'Bad Script', cursive;
@@ -202,14 +208,13 @@ body{
 	box-shadow:10px 10px 5px #000000;
 }
 .titulo-habilidades{
-	margin-top: 10vh;
 	color: #fff;
 	font-size: 3em;
 }
 .box-skill{
 	background-color: white;
 	margin:3vh;
-	height: 65vh;
+	height: auto;
 	padding-top: 1vh;
 	padding-left: 2vh;
 	padding-right: 2vh;
@@ -232,7 +237,6 @@ body{
 	font-family: 'Bad Script', cursive;
 	font-size: 3em;
 	font-weight: 500;
-	margin-top: 8vh;
 	color:black;
 }
 
