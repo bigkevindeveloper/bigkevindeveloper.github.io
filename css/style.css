@@ -1,0 +1,281 @@
+
+/*
+	AUTOR: KEVIN RIVERA RAMIREZ;
+	FECHA:30/10/2018;
+	COPYRIGHT RESERVADO
+	DEPENDENCIAS: BOOTSTRAP & JQUERY;
+*/
+
+.full-height{
+	height: 626px;
+}
+body{
+    background-image: url("../iconos/imagen.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.texto-centrado{
+	text-align: center;
+}
+.title-margin{
+	margin-top: 90px;
+}
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	background-color: black;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+.negro{
+	color: white;
+}
+.estilo-menu{
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	size: 24pt;
+	font-weight: 700;
+	margin-top: 15px;
+	color:white;
+}
+.estilo-menu a{
+	color: white;
+}
+.estilo-menu a:hover{
+	color:white;
+	transition: 2s;
+}
+.estilo-titulo{
+	font-family: 'Bad Script', cursive;
+	color: black;
+	size: 26pt;
+	font-weight: 200;
+	color: white
+}
+.estilo-parrafo{
+	font-family: 'Raleway' , sans-serif;
+	color: black;
+	size: 18pt;
+	font-weight: 500;
+	color: white
+}
+.foto-size{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+.estilo-menu{
+
+}
+#centrador{
+  text-align: center;
+}
+
+/*PARTE 2 PROYECTOS*/
+
+.proyectos{
+	background-color: rgba(255, 255, 255, 0.5);
+	border:dashed 0px #000000;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:6px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	-moz-box-shadow:10px 10px 5px #000000;
+	-webkit-box-shadow:10px 10px 5px #000000;
+	box-shadow:10px 10px 5px #000000;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container-proyectos{
+	height: 35vh;
+	border: 1px solid #000;
+}
+.margin-left{
+	margin-left: 10px;
+}
+.margin-right{
+	margin-right: 10px;
+}
+.margin-top{
+	margin-top: 15vh;
+}
+.font-title{
+	font-family: 'Bad Script', cursive;
+	font-weight: 300;
+}
+
+.font-parrafo{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 500;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.imagen-estilo{
+	width: 100%;
+	height: 100%;
+}
+.bloque-proyectos{
+	margin-top: 10vh;
+}
+.bloque-prueba{
+	width: 91%;
+	height: 100%;
+	background-color: white;
+	opacity: 0.0;
+	transition: 0.4s;
+	position: absolute;
+}
+.bloque-prueba p{
+	margin-top: 14vh;
+	color: #FFF;
+	font-weight: 500;
+	font-size: 2em;
+}
+.bloque-prueba:hover{
+	background-color: #000;
+	opacity: 0.8;
+	transition: 0.6s;
+}
+.alineacion-vertical{
+    display: flex;
+    align-items: center;
+}
+.centrar-boton-horizontal{
+    margin:0 auto;
+    display:block;
+}
+/*UTILIDADES*/
+.sombra-texto{
+	text-shadow:5px 5px 5px #000000;
+}
+.sombra-caja{
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.caja-redonda{
+	border: 1px #000000;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:4px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+/* Seccion de habilidades*/
+
+.skills{
+	margin-top: 15px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.borderbox{
+	border: 1px solid #000000;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:6px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	-moz-box-shadow:10px 10px 5px #000000;
+	-webkit-box-shadow:10px 10px 5px #000000;
+	box-shadow:10px 10px 5px #000000;
+}
+.titulo-habilidades{
+	margin-top: 10vh;
+	color: #fff;
+	font-size: 3em;
+}
+.box-skill{
+	background-color: white;
+	margin:3vh;
+	height: 65vh;
+	padding-top: 1vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+.title-skill{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 500;
+
+}
+.parrafo-skill{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 400;
+}
+/* SECCION DE CONTACTO*/
+.contacto{
+	margin-top: 15px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.title-contacto{
+	font-family: 'Bad Script', cursive;
+	font-size: 3em;
+	font-weight: 500;
+	margin-top: 8vh;
+	color:black;
+}
+
+.info-contacto{
+	margin-left: 15vh;
+	margin-top: 5vh;
+}
+.info-contacto h2{
+	font-size: 2em;
+	margin-bottom: 25px;
+}
+.info-contacto ul li{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+.text-normal{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 500;
+}
+.icono-hogar{
+	background-image: url("../iconos/casa.png");
+}
+.form-contacto{
+	margin-right: 15vh;
+	margin-top: 5vh;
+}
+
+/*SECCION FOOTER*/
+
+.footer-page{
+	background-color: #000;
+	margin-top: 15px;
+	height: 140px;
+}
+.footer-copyright{
+	font-family: 'Bad Script', cursive;
+	font-size: 1em;
+	font-weight: 400;
+	color:white;
+}
+.iconos{
+	width: 3em;
+	margin: 1.5em;
+	margin-left: 5em;
+	margin-bottom: 2em;
+}
