@@ -1,0 +1,274 @@
+
+/*
+	AUTOR: KEVIN RIVERA RAMIREZ;
+	FECHA:30/10/2018;
+	COPYRIGHT RESERVADO
+	DEPENDENCIAS: BOOTSTRAP & JQUERY;
+*/
+
+/*Clases abstractas*/
+
+header{
+	padding: 0;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.0);
+	height: 7vh;
+	padding-top: 2vh;
+}
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	background-color: black;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+/*Estilos para imagenes*/
+.imgRedonda{
+	border: 1px solid;
+	border-radius:50%;
+}
+
+
+.margen-menu a{
+	margin-left: 5vh;
+	margin-right: 5vh;
+}
+
+.full-height{
+	/*Configurado por logica*/
+	min-height: 100vh;
+}
+.centrado{
+	padding: 20vh;
+}
+
+.col-centrada{
+	float: none;
+	margin:0 auto;
+}
+/*Estilos especiales*/
+.sombra-gris{
+	-webkit-box-shadow: 10px 10px 48px -6px rgba(0,0,0,0.94);
+	-moz-box-shadow: 10px 10px 48px -6px rgba(0,0,0,0.94);
+	box-shadow: 10px 10px 48px -6px rgba(0,0,0,0.94);
+}
+.box-redondeado{
+	border:hidden 5px #000000;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.box-shadow-blanco{
+	-moz-box-shadow: 3px 4px 16px #ffffff;
+	-webkit-box-shadow: 3px 4px 16px #ffffff;
+	box-shadow: 3px 4px 16px #ffffff;
+}
+.box-shadow-negro{
+	-moz-box-shadow: 3px 4px 16px #000000;
+	-webkit-box-shadow: 3px 4px 16px #000000;
+	box-shadow: 3px 4px 16px #000000;
+}
+.texto-sombra{
+	text-shadow:5px 5px 5px #000000;
+}
+.texto-sombra-blanco{
+		text-shadow:5px 5px 5px #ffffff;
+
+}
+/*Estilos fuentes*/
+.bad-script{
+	font-family: 'Bad Script', cursive;
+	font-weight: 400;
+}
+.raleway-300{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+.raleway-500{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+.raleway-800{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+/*Colores letras*/
+.blanco{color: white}
+.negro{color:black;}
+
+/*Tamaños*/
+.grande{
+	font-size: 4em;
+}
+.mediano{
+	font-size: 3em;
+}
+.pequeño{
+	font-size: 2em;
+}
+/*fondos solidos*/
+.bg-negro{
+	background-color: black;
+}
+/*Class section home*/
+
+.home{
+	background-image: url("iconos/imagen.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	/*background-attachment: fixed;*/
+	border: 2px solid #000;
+}
+.content-home{
+	width: 100%;
+	height: 100vh;
+}
+.home-descripcion{
+	margin-top: 7vh;
+}
+.imgPerfil{
+	width: 10vh;
+	height: 10vh;
+	margin-top: 2vh;
+	margin-bottom: 3vh;
+}
+.imgPerfil:hover{
+
+	-webkit-box-shadow: 10px 10px 48px -6px rgba(0,33,199,1);
+	-moz-box-shadow: 10px 10px 48px -6px rgba(0,33,199,1);
+	box-shadow: 10px 10px 48px -6px rgba(0,33,199,1);
+	transition: ease 3s;
+}
+.contenido-h{
+	height: 70vh;
+	padding-top: 5vh;
+}
+/*SECCION PROYECTOS*/
+
+.marco-slide{
+	height: 100%;
+}
+.misproyectos{
+	padding: 10vh;
+}
+.row-proyecto{
+	height: 35vh;
+}
+.box-propiedades{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 2vh;
+	
+}
+.box-proyectoA{
+	width:100%;
+	height: 35vh;
+	background:url(iconos/natal);
+	background-size: 100% 100%;
+	border: 2px solid #000;
+	
+}
+.box-proyectoB{
+	width:100%;
+	height: 35vh;
+	background:url(iconos/museo);
+	background-size: 100% 100%;
+	border: 2px solid #000;
+}
+.box-proyectoC{
+	width:100%;
+	height: 35vh;
+	background:url(iconos/barberia);
+	background-size: 100% 100%;
+	border: 2px solid #000;
+}
+.box-proyectoA:hover .box-proyectoAhover{
+   top:0;
+   transition: ease 4s;
+}
+.box-proyectoB:hover .box-proyectoBhover{
+	top:0;
+	transition: ease 4s;
+}
+.box-proyectoC:hover .box-proyectoChover{
+	top:0;
+	transition: ease 4s;
+}
+.box-proyectoAhover{
+	width: 94%;
+	height: 35vh;
+	background-color: black;
+	opacity: 0.8;
+	position: absolute;
+	top: 100%;
+	border: 2px solid #000;
+}
+.box-proyectoBhover{
+	width: 94%;
+	height: 35vh;
+	background-color: black;
+	opacity: 0.8;
+	position: absolute;
+	top: 100%;
+	border: 2px solid #000;
+}
+.box-proyectoChover{
+	width: 94%;
+	height: 35vh;
+	background-color: black;
+	opacity: 0.8;
+	position: absolute;
+	top: 100%;
+	border: 2px solid #000;
+}
+/*HABILIDADES*/
+.mis-habilidades{
+	padding: 10vh;
+}
+.mis-habilidades-contenido{
+	margin:3vh;
+}
+.row-habilidades{
+
+	padding: 5vh;
+	
+}
+.box-habilidadesA{
+	width:100%;
+	background-color: grey;
+	background-size: 100% 100%;
+	border: 2px solid #000;
+	padding: 2vh 2vh 2vh 2vh;
+}
+.box-habilidades-pad{
+	padding: 2vh;
+}
+
+/*Seccion de contacto*/
+
+.contacto{
+	padding: 10vh;
+}
+.contacto-contenido{
+	margin: 3vh;
+}
+.footer-page{
+	background: black;
+}
+.iconos{
+	width: 3em;
+	margin: 1.5em;
+	margin-left: 5em;
+	margin-bottom: 2em;
+}
+
