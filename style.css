@@ -205,7 +205,7 @@ header{
 	transition: ease 4s;
 }
 .box-proyectoAhover{
-	width: 94%;
+	width: 92%;
 	height: 35vh;
 	background-color: black;
 	opacity: 0.8;
@@ -214,7 +214,7 @@ header{
 	border: 2px solid #000;
 }
 .box-proyectoBhover{
-	width: 94%;
+	width: 92%;
 	height: 35vh;
 	background-color: black;
 	opacity: 0.8;
@@ -223,7 +223,7 @@ header{
 	border: 2px solid #000;
 }
 .box-proyectoChover{
-	width: 94%;
+	width: 92%;
 	height: 35vh;
 	background-color: black;
 	opacity: 0.8;
